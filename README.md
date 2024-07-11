@@ -4,7 +4,14 @@
  This project uses the Jetson inference library to train an NVIDIA Jetson nano. From there it uses the ImageNet library and its dependencies such as Resnet-18 and Resnet-50 to train the model.
  For this project, I used it to identify first if a bran MRI was cancerous and then trained to classify the type of cancer between the 3 most common. Those are glioma, meningioma, and pituitary tumors.
 
-![add image descrition here](direct image link here)
+![44](https://github.com/vsaic/Cancer-Detection/assets/103888349/380bc227-59e9-4bb6-a0aa-d7d1ba579c54) ![4](https://github.com/vsaic/Cancer-Detection/assets/103888349/3b589ccb-4025-41d6-a79f-a45280ac502b) ![out18](https://github.com/vsaic/Cancer-Detection/assets/103888349/767ef7ea-96c4-40f5-9403-cbdbf0a7f91b) ![46](https://github.com/vsaic/Cancer-Detection/assets/103888349/981b3ebd-9a40-4ab2-ab18-2836c277bba9)
+
+
+
+
+
+
+
 
 ## The Algorithm
 
@@ -30,9 +37,9 @@ Filter
 
 ## Running this project
 
-1. Add steps for running this project.
-2. Make sure to include any required libraries that need to be installed for your project to run.I
+1. Start by setting up your jetson nano with an SSH connection to VScode
+2. Next download the jetson inference library to set up the enviornment(https://github.com/dusty-nv/jetson-inference)
+3. Next download a brain cancer dataset made for image classification.
+4. If not done already split this data into train, test, and val folder. With 80%, 10%, and 10% of the data respectively.
+5. Now we can train and test our model. To do so fall the step lsited here starting from step 4 of the traing a network section (https://student.idtech.com/courses/331/pages/old-re-training-image-classification-models-2?module_item_id=26828)
 
-[View a video explanation here](video link)
-readme.md
-Displaying readme.md.
