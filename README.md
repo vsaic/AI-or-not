@@ -46,4 +46,5 @@ Filter
 4. If not done already split this data into train, test, and val folder. With 80%, 10%, and 10% of the data respectively.
 5. Now we can train and test our model. To do so follow the step listed here starting from step 4 of the training a network section (https://student.idtech.com/courses/331/pages/old-re-training-image-classification-models-2?module_item_id=26828)
 6. Here is a video walking through all the steps (https://www.youtube.com/watch?v=EZG4WYlcRy4)
+7. The model itself can be downloaded from the above resnet18.onnx file
 
