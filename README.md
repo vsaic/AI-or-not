@@ -18,9 +18,11 @@
 The algorithm used in this project is the Resnet-18 image classification algorithm.
 The flow of the algorithm can be seen below, with all 18 layers of the algorithm.
 
-![download](https://github.com/vsaic/Cancer-Detection/assets/103888349/3b2ae34d-4bbb-4dea-a0fb-c8dbda479349)
+![Original-ResNet-18-Architecture](https://github.com/user-attachments/assets/e5911620-78ac-45e5-a5c9-6cf0f7d7ff5f)
 
-This algortihm itslef is part of a greater set of algorithms known as convelutional neural networks or CNN's for short. These algortihms are typicall used for image classification as they are excellent at classifiy variouse iamges due to the convelution layers, priary to the neural netowrk. Helping to condense data to better analyze it. It does so by taking the main iamge and looking at key parts of it pooling down the image into its key parts, these key parts are then firther eanalyzed for more important areas, through another convelutional layer. The process of condensing these images is something alled pooling and is done the through a filter(iamge shown below).
+
+
+This algorithm itself is part of a greater set of algorithms known as convolutional neural networks or CNNs for short. These algorithms are typically used for image classification as they are excellent at classifying various images due to the convolution layers, prior to the neural network. Helping to condense data to better analyze it. It does so by taking the main image and looking at key parts of it pooling down the image into its key parts, these key parts are then further analyzed for more important areas, through another convolutional layer. The process of condensing these images is something called pooling and is done through a filter(image shown below).
 
 CNN
 
@@ -28,7 +30,8 @@ CNN
 
 Filter
 
-![0_zJENIIWIKIxR1jQk](https://github.com/vsaic/Cancer-Detection/assets/103888349/aef161e6-2e4f-4938-9572-c689e477a242)
+![0_zJENIIWIKIxR1jQk](https://github.com/user-attachments/assets/660d8dc4-0418-4eb5-b565-99beb06e4f2d)
+
 
 
 
@@ -37,9 +40,10 @@ Filter
 
 ## Running this project
 
-1. Start by setting up your jetson nano with an SSH connection to VScode
-2. Next download the jetson inference library to set up the enviornment(https://github.com/dusty-nv/jetson-inference)
+1. Start by setting up your Jetson Nano with an SSH connection to VScode
+2. Next download the jetson inference library to set up the environment (https://github.com/dusty-nv/jetson-inference)
 3. Next download a brain cancer dataset made for image classification.
 4. If not done already split this data into train, test, and val folder. With 80%, 10%, and 10% of the data respectively.
-5. Now we can train and test our model. To do so fall the step lsited here starting from step 4 of the traing a network section (https://student.idtech.com/courses/331/pages/old-re-training-image-classification-models-2?module_item_id=26828)
+5. Now we can train and test our model. To do so follow the step listed here starting from step 4 of the training a network section (https://student.idtech.com/courses/331/pages/old-re-training-image-classification-models-2?module_item_id=26828)
+6. Here is a video walking through all the steps (https://www.youtube.com/watch?v=EZG4WYlcRy4)
 
